@@ -8,5 +8,6 @@ solana-genesis \
   --faucet-pubkey faucet.json \
   --faucet-lamports 500000000000000000 \
   --hashes-per-tick auto \
-  --cluster-type development \
+  --cluster-type mainnet-beta \
+  $(cat spl-genesis-args.sh) \
   --ledger ledger

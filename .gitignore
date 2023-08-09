@@ -1,0 +1,3 @@
+*.so
+workspace/logs/
+workspace/ledger/
